@@ -9,7 +9,7 @@ Custom & Ready to GO partially customizable Animation Layouts for React Native.
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 <p align="center">
-<img alt="React Native Animation Layout" src="https://github.com/WrathChaos/react-native-animation-layout/blob/master/assets/Screenshots/SearchGIF.gif" width="49.7%"/>
+<img alt="React Native Animation Layout" src="https://github.com/WrathChaos/react-native-dynamic-search-bar/blob/master/assets/Screenshots/SearchGIF.gif" width="49.7%"/>
 </p>
 
 ## Installation
@@ -50,9 +50,9 @@ LayoutAnimation.configureNext(CustomLayoutSpring());
 
 ```
 
-### Configuration - Props
+## Configuration - Props
 
-## CustomLayoutSpring: 
+### CustomLayoutSpring: 
 
 
 | Property            |   Type    |      Default      | Description                                                                       |
@@ -60,12 +60,14 @@ LayoutAnimation.configureNext(CustomLayoutSpring());
 | duration            |  number   |        700        | change the animation duration as millisecond                                      |
 | springDamping       |  number   |        13         | change the font size                                                              |
 
-## CustomLayoutLinear: 
+### CustomLayoutLinear : 
 
 
 | Property            |   Type    |      Default      | Description                                                                       |
 | ------------------- | :-------: | :---------------: | --------------------------------------------------------------------------------- |
 | duration            |  number   |        700        | change the animation duration as millisecond                                      |
+
+
 
 ### ToDos
 
