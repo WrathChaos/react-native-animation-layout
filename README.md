@@ -32,6 +32,20 @@ npm i react-native-animation-layout
 "react-native": ">= 0.55.x",
 ```
 
+## Important Note for Android : 
+If you want to use LayoutAnimation on Android, you need to enable LayoutAnimations for Android. Here is how to do it:  
+
+```ruby
+import {UIManager} from 'react-native';
+
+constructor() {
+    super();
+
+    if (Platform.OS === 'android') {
+      UIManager.setLayoutAnimationEnabledExperimental && UIManager.setLayoutAnimationEnabledExperimental(true);
+    }
+  }
+```
 
 ## Basic Usage
 
