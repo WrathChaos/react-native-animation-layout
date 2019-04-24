@@ -19,6 +19,7 @@ import {
   CustomLayoutKeyboard,
   CustomLayoutEaseInEaseOut
 } from "react-native-animation-layout";
+import { UIManager } from "react-native";
 
 // Static Data
 import staticData from "./src/data/staticData";
@@ -37,6 +38,10 @@ export default class App extends Component {
       seed: 1,
       refreshing: false
     };
+    if (Platform.OS === "android") {
+      UIManager.setLayoutAnimationEnabledExperimental &&
+        UIManager.setLayoutAnimationEnabledExperimental(true);
+    }
   }
 
   filterList = text => {
@@ -46,7 +51,7 @@ export default class App extends Component {
       const textData = text.toLowerCase();
       return itemData.indexOf(textData) > -1;
     });
-    LayoutAnimation.configureNext(CustomLayoutSpring(850, 0.7, "scaleXY"));
+    LayoutAnimation.configureNext(CustomLayoutSpring(850, 0.7, "opacity"));
     this.setState({
       query: text,
       dataSource: newData
