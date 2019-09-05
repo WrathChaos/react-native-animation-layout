@@ -6,7 +6,7 @@ Custom & Ready to GO partially customizable Animation Layouts for React Native.
 [![npm](https://img.shields.io/npm/dt/react-native-animation-layout.svg)](https://www.npmjs.com/package/react-native-animation-layout)
 ![Platform - Android and iOS](https://img.shields.io/badge/platform-Android%20%7C%20iOS-blue.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![Greenkeeper badge](https://badges.greenkeeper.io/WrathChaos/react-native-animation-layout.svg)](https://greenkeeper.io/)
 
 <p align="center">
 <img alt="React Native Animation Layout" src="https://github.com/WrathChaos/react-native-dynamic-search-bar/blob/master/assets/Screenshots/SearchGIF.gif" width="49.7%"/>
